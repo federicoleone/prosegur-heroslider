@@ -11118,4 +11118,44 @@ footer .btn.btn-see-more {
 .body-no-scroll {
   overflow: hidden;
 }
+
+.subHeader {
+  background-color: rgba(22, 22, 22, 0.8);
+}
+
+.subHeader ul {
+  margin: 0;
+}
+
+.subHeader li {
+  display: inline-block;
+}
+
+.subHeader li a {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.subHeader li a:hover {
+  text-decoration: none;
+}
+
+.subHeader li a:hover h6 {
+  color: #fff;
+}
+
+.subHeader p {
+  font-size: 0.85rem;
+  line-height: 1em;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: normal;
+  color: #fff;
+  display: inline-block;
+}
+
+.subHeader img {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
