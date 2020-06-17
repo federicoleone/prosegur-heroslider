@@ -1,5 +1,5 @@
 $(function () {
-	/* Header drop down*/
+	/* Header drop down
 	$('#personas').mouseover(function () {
 		$('#menuPersonas').slideDown();
 		$('body').addClass('body-no-scroll');
@@ -9,6 +9,7 @@ $(function () {
 		$('#menuPersonas').hide();
 		$('body').removeClass('body-no-scroll');
 	});
+	*/
 
 
 	/* Scroll Link */
