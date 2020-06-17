@@ -17,8 +17,8 @@
 
 <body id="body">
 
-  <header class="container-fluid bg-white position-fixed animated fadeInDown py-2">
-    <nav class="navHeader">
+  <header class="container-fluid position-fixed animated fadeInDown p-0">
+    <nav class="navHeader bg-white p-2">
       <section class="container px-0 py-2">
         <div class="row align-items-center no-gutters">
 
@@ -32,13 +32,13 @@
             <ul class="list-unstyled d-lg-block d-md-none menuDropDown">
               <li class="px-3 active" id="personas">
                 <a href="#">
-                  <h6 class="mr-1">Personas</h6>
-                  <img src="img/arrow-down.svg" alt="">
+                  <h6>Personas</h6>
                 </a>
               </li>
               <li class="px-3">
                 <a href="#">
-                  <h6>Negocios y Empresas</h6>
+                  <h6 class="mr-1">Negocios y Empresas</h6>
+                  <img src="img/arrow-down.svg" alt="">
                 </a>
               </li>
               <li class="px-3">
@@ -67,8 +67,39 @@
         </div>
       </section>
     </nav>
+
+    <nav class="subHeader d-lg-block d-md-none d-sm-none d-none">
+      <div class="container text-center">
+        <ul class="list-unstyled">
+          <li class="py-1 px-3">
+            <a href="#">
+              <p>Seguridad para tu Hogar</p>
+              <img src="img/arrow-down-white.svg" alt="">
+            </a>
+          </li>
+          <li class="py-1 px-3">
+            <a href="#">
+              <p>Seguridad para tu Edificio</p>
+              <img src="img/arrow-down-white.svg" alt="">
+            </a>
+          </li>
+          <li class="py-1 px-3">
+            <a href="#">
+              <p>Seguridad para tu Vehículo</p>
+            </a>
+          </li>
+          <li class="py-1 px-3">
+            <a href="#">
+              <p>Todos los servicios</p>
+              <img src="img/arrow-down-white.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
+  <!-- 
   <nav class="dropDownNav pt-5 text-center" id="menuPersonas">
     <div class="container pt-5 mt-3 position-relative">
       <div class="row">
@@ -131,13 +162,13 @@
       </div>
     </div>
   </nav>
-
+-->
   <main>
 
     <!-- Banner Hero -->
     <section class="container-fluid bannerHero bg-light-gray sliderHero_wrappper py-5">
 
-      <div id="sliderHero" class="carousel slide sliderHero pt-lg-5 pb-lg-4 pt-md-5 pb-md-4 py-sm-0 py-0 mt-2"
+      <div id="sliderHero" class="carousel slide sliderHero pt-lg-5 pb-lg-4 pt-md-5 pb-md-4 py-sm-0 py-0 mt-lg-3 mt-md-0 mt-sm-0 mt-0"
         data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
 
@@ -273,9 +304,9 @@
                     </div>
 
                     <div class="position-relative">
-                    <iframe src="https://www.youtube.com/embed/GdqICqbK0dU" frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
+                      <iframe src="https://www.youtube.com/embed/GdqICqbK0dU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                       <img src="./img/slide_2.svg" class="img-fluid" alt="Prueba 2">
                     </div>
 
@@ -338,7 +369,8 @@
                     <img src="./img/prosegur-banner-alarmas-hyp-landing.gif" class="img-fluid" alt="Prueba 2">
                     <div
                       class="card-body text-white py-0 wrapperTitleDesktop d-flex flex-column justify-content-center align-items-center">
-                      <h1 class="font-weight-semiBold card-title m-0 py-3">Mirá lo que sucede en tu hogar desde el celular en tiempo real</h1>
+                      <h1 class="font-weight-semiBold card-title m-0 py-3">Mirá lo que sucede en tu hogar desde el
+                        celular en tiempo real</h1>
                       <div class="card-text d-none mt-2 text-black-gray-sm">
                         <p class="d-lg-block m-0">Disfrutá tu vida mientras nos ocupamos de tu seguridad. Cada hogar
                           es
@@ -396,7 +428,7 @@
   </main>
 
   <footer class="mb-lg-0 mb-md-0 mb-sm-0 mb-5">
-    <div class="container-fluid text-center border-top mt-2 pt-4">
+    <div class="container-fluid text-center border-top pt-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
