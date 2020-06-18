@@ -10741,11 +10741,24 @@ header {
 
 .bannerHero .card-body {
   background-color: #393939;
+  padding: 1rem 1rem 0;
+}
+
+.bannerHero .card-body .card-title {
+  margin-bottom: 1rem;
+}
+
+.bannerHero .card-body p {
+  margin-top: -5px;
 }
 
 @media (max-width: 767px) {
   .bannerHero .card-body {
     background: #f3f3f3;
+    padding: 12px 5px 0;
+  }
+  .bannerHero .card-body p {
+    margin-top: auto;
   }
 }
 
