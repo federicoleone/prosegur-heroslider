@@ -10800,13 +10800,13 @@ header {
 
 @media (max-width: 991px) {
   .form-wrapper h2, .form-wrapper .h2, .form-wrapper .fh2 {
-    font-size: 1.9rem;
-    line-height: 2.3rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     margin-bottom: 0;
   }
   .form-wrapper h2 span, .form-wrapper .h2 span, .form-wrapper .fh2 span {
-    font-size: 1.7rem;
-    line-height: 2.3rem;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
   }
 }
 
@@ -10910,6 +10910,7 @@ input:-webkit-autofill,
 .form-wrapper .form-group select:-webkit-autofill:hover,
 .form-wrapper .form-group select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
 }
 
 .form-wrapper .form-group input:focus ~ span,
