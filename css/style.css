@@ -10899,6 +10899,19 @@ header {
           box-shadow: none;
 }
 
+.form-wrapper .form-group input:-webkit-autofill,
+.form-wrapper .form-group input:-webkit-autofill:hover,
+.form-wrapper .form-group input:-webkit-autofill:focus
+input:-webkit-autofill,
+.form-wrapper .form-group textarea:-webkit-autofill,
+.form-wrapper .form-group textarea:-webkit-autofill:hover,
+.form-wrapper .form-group textarea:-webkit-autofill:focus,
+.form-wrapper .form-group select:-webkit-autofill,
+.form-wrapper .form-group select:-webkit-autofill:hover,
+.form-wrapper .form-group select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
 .form-wrapper .form-group input:focus ~ span,
 .form-wrapper .form-group input:not(:placeholder-shown) ~ span {
   top: -44px;
