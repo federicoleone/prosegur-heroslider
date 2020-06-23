@@ -10654,7 +10654,7 @@ header {
 
 .navHeader li {
   display: inline-block;
-  border-right: 1px solid #545454;
+  border-right: 1px solid #000;
 }
 
 .navHeader li:last-child {
@@ -10662,7 +10662,7 @@ header {
 }
 
 .navHeader li a {
-  color: #545454;
+  color: #000;
   position: relative;
   display: inline-block;
 }
@@ -10672,7 +10672,7 @@ header {
 }
 
 .navHeader li a:hover h6 {
-  color: #545454;
+  color: #000;
 }
 
 .navHeader li.active a:before {
